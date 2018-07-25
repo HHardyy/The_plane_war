@@ -1,0 +1,38 @@
+body,ul{
+	margin: 0px;
+	padding:0px;
+}
+li{
+	list-style-type: none;
+}
+.gameBox{width: 800px; height: 650px; margin: 0 auto;  background: url(../images/bg.png);  background-size: 100% 100%;  overflow:hidden; position: relative;}
+.sun{width:100%; height:100%; background:rgba(0,0,0,0.8);}
+.StartGame{width: 120px;height: 30px;background: url(../images/btn_bg.png); border-radius: 8px; border: 2px dashed #6817e1; font-size:20px; text-align:center; line-height:20px; font-weight:300; outline: none;position: absolute; left: 50%; top: 50%; margin-left:-60px; margin-top: -15px; color: #f5f5f5; line-height: 30px;}
+.StartGame:hover{border-color: #8080ff; color:#ffffff; cursor: pointer; box-shadow:0 0 20px gray; transition:.35s;}
+
+#score{ color:#FFFFFF; font-size:20px;}
+#bee{ position:relative;}
+.enemy1{ width:40px; height:28px; background:url(../images/mf1.gif) no-repeat; float:left;}
+.enemy2{ width:40px; height:28px; background:url(../images/mf2.gif) no-repeat; float:left;}
+.enemy3{ width:40px; height:28px; background:url(../images/mf3.gif) no-repeat; float:left;}
+
+.air1{ width:46px; height:60px; background:url(../images/fj.gif) no-repeat; position:absolute;}
+.bullet{ width:5px; overflow:hidden; height:10px;  background: -webkit-linear-gradient(#a4a7aa,#ff8000,#663300); /* Safari 5.1-6.0 */
+    background: -o-linear-gradient(#a4a7aa,#ff8000,#663300); /* Opera 11.1-12.0 */ 
+    background: -moz-linear-gradient(#a4a7aa,#ff8000,#663300); /* Firefox 3.6-15 */
+    background: linear-gradient(#a4a7aa,#ff8000,#663300); /* 标准语法 */ position:absolute; border-radius:8px 8px 0px 0px;}
+.sai{
+	width:100px;
+	height:auto;
+	line-height:20px;
+	color:gray;
+	position:absolute;
+	left:10%;
+	top:50px;
+	font-size:12px;
+	font-weight:300;
+}
+.sai h1{
+	font-size:16px;
+	color:#aa7af1;
+}
